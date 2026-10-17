@@ -1,0 +1,21 @@
+{
+  "team_pipeline": {
+    "name": "Customer Onboarding & Delivery",
+    "description": "Post-sales implementation and delivery pipeline",
+    "sub_pipelines": [
+      {
+        "name": "Standard Delivery",
+        "stages": [
+          { "name": "Kickoff Call", "probability": 20, "category": "Open" },
+          { "name": "Technical Setup", "probability": 50, "category": "Open" },
+          { "name": "Customer Go-Live", "probability": 100, "category": "Closed Won" },
+          { "name": "Project Dropped", "probability": 0, "category": "Closed Lost" }
+        ]
+      }
+    ],
+    "custom_fields": [
+      { "label": "Technical Lead", "type": "text" },
+      { "label": "Deployment URL", "type": "url" }
+    ]
+  }
+}

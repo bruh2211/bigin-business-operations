@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Auth & Sensitive Tokens (Keep local!)
+auth_state.json
+*.env
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
